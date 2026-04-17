@@ -1,5 +1,13 @@
 
 # AI Tool Recommendation Frontend
+
+## LIve Demo
+https://aitool-blush.vercel.app
+
+## Screenshot
+![App Screenshot](./screenshot.png)
+
+## Overview
 AI tools recommendation web app built with React and a serverless AWS backend. 
 Supports natural language queries, parses user intent into structured tags, and retrieves relevant tools from a curated database using scoring and fallback logic.
 
@@ -12,23 +20,20 @@ Supports natural language queries, parses user intent into structured tags, and 
 ## Tech Stack
 - React (Vite)
 - JavaScript (ES6+)
-- CSS (custom styling)
+- CSS
 
 ## Run Locally
-
 ```bash
 npm install
 npm run dev
 ```
 
 ## Build
-
 ```bash
 npm run build
 ```
 
 ## Deployment
-
 Deployed on Vercel.
 
 ## Backend
