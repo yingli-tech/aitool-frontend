@@ -1,7 +1,7 @@
 
 # AI Tool Recommendation Frontend
 
-## LIve Demo
+## Live Demo
 https://aitool-blush.vercel.app
 
 ## Screenshot
