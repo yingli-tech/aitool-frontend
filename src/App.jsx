@@ -24,6 +24,26 @@ function formatFieldLabel(field) {
   return FIELD_LABELS[field] || field
 }
 
+function formatToolLanguages(tool) {
+  const languages = Array.isArray(tool.languages)
+    ? tool.languages
+    : tool.language
+      ? [tool.language]
+      : []
+
+  const labels = languages
+    .map((language) => {
+      if (typeof language === 'string') {
+        return language.trim()
+      }
+
+      return language?.language || language?.name || ''
+    })
+    .filter(Boolean)
+
+  return labels.length > 0 ? labels.join(', ') : 'N/A'
+}
+
 function formatTagValue(item) {
   if (!item) {
     return ''
@@ -288,7 +308,7 @@ function App() {
                       </div>
                       <div className="meta-item">
                         <span className="meta-label">Language</span>
-                        <span className="meta-value">{tool.language || 'N/A'}</span>
+                        <span className="meta-value">{formatToolLanguages(tool)}</span>
                       </div>
                     </div>
                   </div>
