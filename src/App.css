@@ -125,6 +125,8 @@ button:disabled {
 .result-box {
   margin-top: 28px;
   min-height: 96px;
+  display: flex;
+  flex-direction: column;
   border: 1px solid rgba(132, 155, 138, 0.32);
   border-radius: 18px;
   padding: 22px;
@@ -139,16 +141,19 @@ button:disabled {
 }
 
 .status-text {
+  order: 1;
   color: #5c7265;
   text-align: center;
 }
 
 .error-text {
+  order: 1;
   color: #ab6464;
   font-weight: 600;
 }
 
 .fallback-panel {
+  order: 3;
   margin-top: 18px;
   padding: 20px;
   border: 1px solid rgba(132, 155, 138, 0.28);
@@ -312,6 +317,7 @@ button:disabled {
 }
 
 .results-list {
+  order: 2;
   display: grid;
   gap: 16px;
   margin-top: 18px;
