@@ -41,12 +41,6 @@
   ],
   "AI Writing": [
     {
-      "id": 6,
-      "name": "Writers brew",
-      "oneLineDesc": "Writers Brew is a macOS AI writing assistant for generating, improving, summarizing, translating, and transforming text across apps.",
-      "officialUrl": "https://writersbrew.app/"
-    },
-    {
       "id": 7,
       "name": "Writesonic",
       "oneLineDesc": "Writes research-driven, citation-backed long-form articles optimized for Google and AI search, with review, humanization, SEO, and CMS publishing features.",
@@ -69,12 +63,6 @@
       "name": "beehiiv",
       "oneLineDesc": "beehiiv is a publishing platform for creating and growing newsletters, websites, podcasts, communities, and monetized digital content.",
       "officialUrl": "https://www.beehiiv.com/"
-    },
-    {
-      "id": 11,
-      "name": "eSkilled AI Course Creator",
-      "oneLineDesc": "eSkilled AI Course Creator uses artificial intelligence to transform ideas and existing training materials into structured, interactive online courses with lessons, assessments, multimedia, and LMS-ready exports.",
-      "officialUrl": "https://aicoursecreator.eskilled.io/"
     },
     {
       "id": 12,
@@ -145,12 +133,6 @@
       "name": "i10x",
       "oneLineDesc": "i10x is an AI workspace that combines access to leading language models, custom agents, visual generation, and automated workflows in one platform.",
       "officialUrl": "https://i10x.ai/"
-    },
-    {
-      "id": 23,
-      "name": "just build things",
-      "oneLineDesc": "Just Build Things is an all-in-one AI platform for analyzing media and documents, generating creative content and code, chatting with AI characters, and using everyday utility tools.",
-      "officialUrl": "https://justbuildthings.com/"
     }
   ],
   "AI Audio": [
