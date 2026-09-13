@@ -28,9 +28,15 @@
     },
     {
       "id": 5,
-      "name": "imini AI",
+      "name": "iMini AI",
       "oneLineDesc": "iMini AI is a chat-based creative agent for generating and editing images, videos, presentations, designs, branding, and other creative content.",
       "officialUrl": "https://imini.com/"
+    },
+    {
+      "id": 26,
+      "name": "AI Baby Generator",
+      "oneLineDesc": "AI Baby Generator creates realistic portraits of a potential future child from photos of both parents.",
+      "officialUrl": "https://aibabygenerator.ai/"
     }
   ],
   "AI Writing": [
@@ -159,6 +165,12 @@
       "name": "VoiceAppear",
       "oneLineDesc": "VoiceAppear is a Windows and Mac desktop app that converts speech into cleaned, typed text directly in any app or text field.",
       "officialUrl": "https://voiceappear.de/"
+    },
+    {
+      "id": 27,
+      "name": "Aircall",
+      "oneLineDesc": "Aircall is an AI-supported phone and omnichannel communication system for sales, support, and operations teams.",
+      "officialUrl": "https://aircall.io/c/builtforteams/"
     }
   ]
 }
