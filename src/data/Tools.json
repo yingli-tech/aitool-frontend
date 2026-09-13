@@ -54,7 +54,7 @@
     },
     {
       "id": 9,
-      "name": "aiApply",
+      "name": "AIApply",
       "oneLineDesc": "AIApply is an AI-powered job search platform that helps users create tailored applications, automate job applications, and practice interviews.",
       "officialUrl": "https://aiapply.co/"
     },
@@ -124,7 +124,7 @@
     },
     {
       "id": 21,
-      "name": "goose",
+      "name": "Goose",
       "oneLineDesc": "Goose is a general-purpose AI agent that runs locally through a desktop app, CLI, or API for research, writing, automation, coding, and data analysis.",
       "officialUrl": "https://goose-docs.ai/"
     },
