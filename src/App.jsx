@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 
+import mockTools from "./data/Tools.json";
+import CategorySection from "./components/CategorySection";
+
 const API_URL = 'https://nd788ggkmj.execute-api.us-east-2.amazonaws.com/prod/aitool'
 
 const EMPTY_FALLBACK = {
@@ -19,6 +22,15 @@ const FIELD_LABELS = {
   language: 'Language',
   use_cases: 'Use Cases',
 }
+
+const categories = [
+  "AI Video",
+  "AI Image",
+  "AI Writing",
+  "AI Coding",
+  "AI Chat",
+  "AI Audio",
+];
 
 function formatFieldLabel(field) {
   return FIELD_LABELS[field] || field
@@ -84,6 +96,7 @@ function buildConstraintGroups(constraints) {
 }
 
 function App() {
+  
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const [message, setMessage] = useState('Your recommendations will appear here.')
@@ -168,6 +181,7 @@ function App() {
     relaxedConstraintGroups.length > 0
 
   return (
+    
     <div className="page">
       <div className="card">
         <h1>What's on your mind today?</h1>
@@ -192,6 +206,48 @@ function App() {
 
           {!error && message && <p className="status-text">{message}</p>}
 
+          
+
+          {!error && results.length > 0 && (
+            <div className="results-list">
+              {results.map((tool, index) => (
+                <article className="tool-card" key={tool.tool_id || tool.id || index}>
+                  <div className="tool-card-body">
+                    <p className="tool-rank">Top {tool.rank || index + 1}</p>
+                    <h3 className="tool-name">{tool.name || tool.tool_name || 'Unnamed Tool'}</h3>
+
+                    {(tool.description || tool.one_line_desc) && (
+                      <p className="tool-description">
+                        {tool.description || tool.one_line_desc}
+                      </p>
+                    )}
+
+                    <div className="tool-meta-row">
+                      <div className="meta-item">
+                        <span className="meta-label">Category</span>
+                        <span className="meta-value">{tool.category || tool.category_name || 'N/A'}</span>
+                      </div>
+                      <div className="meta-item">
+                        <span className="meta-label">Language</span>
+                        <span className="meta-value">{formatToolLanguages(tool)}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {(tool.url || tool.official_url) && (
+                    <a
+                      href={tool.url || tool.official_url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="tool-link"
+                    >
+                      Visit Tool
+                    </a>
+                  )}
+                </article>
+              ))}
+            </div>
+          )}
           {!error && hasFallbackDetails && (
             <section className="fallback-panel">
               <div className="fallback-header">
@@ -286,49 +342,23 @@ function App() {
               )}
             </section>
           )}
-
-          {!error && results.length > 0 && (
-            <div className="results-list">
-              {results.map((tool, index) => (
-                <article className="tool-card" key={tool.tool_id || tool.id || index}>
-                  <div className="tool-card-body">
-                    <p className="tool-rank">Top {tool.rank || index + 1}</p>
-                    <h3 className="tool-name">{tool.name || tool.tool_name || 'Unnamed Tool'}</h3>
-
-                    {(tool.description || tool.one_line_desc) && (
-                      <p className="tool-description">
-                        {tool.description || tool.one_line_desc}
-                      </p>
-                    )}
-
-                    <div className="tool-meta-row">
-                      <div className="meta-item">
-                        <span className="meta-label">Category</span>
-                        <span className="meta-value">{tool.category || tool.category_name || 'N/A'}</span>
-                      </div>
-                      <div className="meta-item">
-                        <span className="meta-label">Language</span>
-                        <span className="meta-value">{formatToolLanguages(tool)}</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {(tool.url || tool.official_url) && (
-                    <a
-                      href={tool.url || tool.official_url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="tool-link"
-                    >
-                      Visit Tool
-                    </a>
-                  )}
-                </article>
-              ))}
-            </div>
-          )}
         </div>
-      </div>
+            </div>
+      <main className="tools-directory">
+        <div className="directory-header">
+          <h2 className="directory-title">Discover AI Tools</h2>
+          <p className="directory-subtitle">
+            Explore more tools by category and find the right one for your needs.
+          </p>
+        </div>
+        {categories.map((category) => (
+          <CategorySection
+            key={category}
+            title={category}
+            tools={mockTools[category]}
+          />
+        ))}
+      </main>
     </div>
   )
 }

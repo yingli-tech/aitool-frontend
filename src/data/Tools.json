@@ -1,0 +1,164 @@
+{
+  "AI Video": [
+    {
+      "id": 1,
+      "name": "Wistia Remix",
+      "oneLineDesc": "Wistia Remix is an agentic video editor that turns footage, podcasts, webinars, and other sources into polished videos through natural-language direction.",
+      "officialUrl": "https://wistia.com/product/remix-ai-video-editor"
+    },
+    {
+      "id": 2,
+      "name": "Wondershare Filmora",
+      "oneLineDesc": "Wondershare Filmora is an AI-powered video editor for generating, enhancing, and refining social media-ready video content.",
+      "officialUrl": "https://filmora.wondershare.com/ai-video-editing.html"
+    },
+    {
+      "id": 3,
+      "name": "Wondershare Virbo",
+      "oneLineDesc": "Wondershare Virbo generates product videos from text, product images, or links for commerce and marketing content.",
+      "officialUrl": "https://virbo.wondershare.com/"
+    }
+  ],
+  "AI Image": [
+    {
+      "id": 4,
+      "name": "X-Design",
+      "oneLineDesc": "X-Design is an AI branding and visual content tool for creating on-brand logos, posters, social media assets, mockups, and product images.",
+      "officialUrl": "https://zawa.ai/"
+    },
+    {
+      "id": 5,
+      "name": "imini AI",
+      "oneLineDesc": "iMini AI is a chat-based creative agent for generating and editing images, videos, presentations, designs, branding, and other creative content.",
+      "officialUrl": "https://imini.com/"
+    }
+  ],
+  "AI Writing": [
+    {
+      "id": 6,
+      "name": "Writers brew",
+      "oneLineDesc": "Writers Brew is a macOS AI writing assistant for generating, improving, summarizing, translating, and transforming text across apps.",
+      "officialUrl": "https://writersbrew.app/"
+    },
+    {
+      "id": 7,
+      "name": "Writesonic",
+      "oneLineDesc": "Writes research-driven, citation-backed long-form articles optimized for Google and AI search, with review, humanization, SEO, and CMS publishing features.",
+      "officialUrl": "https://writesonic.com/ai-article-writer"
+    },
+    {
+      "id": 8,
+      "name": "Yaara",
+      "oneLineDesc": "Yaara is an AI writing platform for generating conversion-focused marketing copy, long-form content, social posts, emails, scripts, and presentations.",
+      "officialUrl": "https://yaara.ai/"
+    },
+    {
+      "id": 9,
+      "name": "aiApply",
+      "oneLineDesc": "AIApply is an AI-powered job search platform that helps users create tailored applications, automate job applications, and practice interviews.",
+      "officialUrl": "https://aiapply.co/"
+    },
+    {
+      "id": 10,
+      "name": "beehiiv",
+      "oneLineDesc": "beehiiv is a publishing platform for creating and growing newsletters, websites, podcasts, communities, and monetized digital content.",
+      "officialUrl": "https://www.beehiiv.com/"
+    },
+    {
+      "id": 11,
+      "name": "eSkilled AI Course Creator",
+      "oneLineDesc": "eSkilled AI Course Creator uses artificial intelligence to transform ideas and existing training materials into structured, interactive online courses with lessons, assessments, multimedia, and LMS-ready exports.",
+      "officialUrl": "https://aicoursecreator.eskilled.io/"
+    },
+    {
+      "id": 12,
+      "name": "iSpring Cloud AI",
+      "oneLineDesc": "iSpring Cloud AI is an AI-enhanced authoring tool for creating, collaborating on, and publishing scrollable online courses.",
+      "officialUrl": "https://www.ispringsolutions.com/ispring-cloud"
+    },
+    {
+      "id": 13,
+      "name": "tinyEinstein",
+      "oneLineDesc": "tinyEinstein is an AI-powered email marketing manager for Shopify that creates, automates, and analyzes targeted email campaigns.",
+      "officialUrl": "https://www.tinyalbert.ai/"
+    }
+  ],
+  "AI Coding": [
+    {
+      "id": 14,
+      "name": "YouWare",
+      "oneLineDesc": "YouWare is an AI-powered platform for generating responsive websites and building projects with integrated design, testing, data, and analytics features.",
+      "officialUrl": "https://www.youware.com/"
+    },
+    {
+      "id": 15,
+      "name": "n8n",
+      "oneLineDesc": "n8n is a visual and code-based platform for building, integrating, deploying, and monitoring AI agents and workflows.",
+      "officialUrl": "https://n8n.io/"
+    },
+    {
+      "id": 16,
+      "name": "v0 by Vercel",
+      "oneLineDesc": "v0 by Vercel uses AI to generate, edit, integrate, and deploy working web applications and mobile sites.",
+      "officialUrl": "https://v0.app/"
+    }
+  ],
+  "AI Chat": [
+    {
+      "id": 17,
+      "name": "Wonderplan",
+      "oneLineDesc": "Wonderplan is an AI trip planner that creates personalized travel itineraries and accommodation recommendations based on users' interests and budgets.",
+      "officialUrl": "https://wonderplan.ai/"
+    },
+    {
+      "id": 18,
+      "name": "Xero AI",
+      "oneLineDesc": "Xero streamlines accounting administration by automating bank feeds, storing financial documents, capturing bills and receipts, and providing cash flow visibility.",
+      "officialUrl": "https://www.xero.com/us/campaign/referral-affiliate-tier2/"
+    },
+    {
+      "id": 19,
+      "name": "Zentask",
+      "oneLineDesc": "Zentask provides persistent AI agents with cloud Linux machines for browsing the web, running code, completing workflows, and delivering files.",
+      "officialUrl": "https://octomind.run/cloud"
+    },
+    {
+      "id": 20,
+      "name": "Zigpoll",
+      "oneLineDesc": "Zigpoll is an application that requires JavaScript to run.",
+      "officialUrl": "https://app.zigpoll.com/sign-up"
+    },
+    {
+      "id": 21,
+      "name": "goose",
+      "oneLineDesc": "Goose is a general-purpose AI agent that runs locally through a desktop app, CLI, or API for research, writing, automation, coding, and data analysis.",
+      "officialUrl": "https://goose-docs.ai/"
+    },
+    {
+      "id": 22,
+      "name": "i10x",
+      "oneLineDesc": "i10x is an AI workspace that combines access to leading language models, custom agents, visual generation, and automated workflows in one platform.",
+      "officialUrl": "https://i10x.ai/"
+    },
+    {
+      "id": 23,
+      "name": "just build things",
+      "oneLineDesc": "Just Build Things is an all-in-one AI platform for analyzing media and documents, generating creative content and code, chatting with AI characters, and using everyday utility tools.",
+      "officialUrl": "https://justbuildthings.com/"
+    }
+  ],
+  "AI Audio": [
+    {
+      "id": 24,
+      "name": "VoiceAIWrapper",
+      "oneLineDesc": "VoiceAIWrapper is a white-label platform that lets agencies resell and manage AI voice agents from multiple providers under their own brand.",
+      "officialUrl": "https://voiceaiwrapper.com/"
+    },
+    {
+      "id": 25,
+      "name": "VoiceAppear",
+      "oneLineDesc": "VoiceAppear is a Windows and Mac desktop app that converts speech into cleaned, typed text directly in any app or text field.",
+      "officialUrl": "https://voiceappear.de/"
+    }
+  ]
+}
