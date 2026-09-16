@@ -135,7 +135,9 @@ function App() {
       const data = await response.json()
 
       if (!response.ok) {
-        throw new Error(data?.error?.detail || `HTTP error: ${response.status}`)
+        throw new Error(response.status === 503
+          ? 'AI service is temporarily unavailable. Please try again shortly.'
+          : data?.error?.message || data?.error?.detail || `HTTP error: ${response.status}`)
       }
 
       const tools =
